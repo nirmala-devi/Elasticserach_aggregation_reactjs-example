@@ -1,0 +1,38 @@
+
+.autoComplete {
+  position: relative;
+  width: 200px; 
+  height: 30px; 
+}
+
+.autocompleteList{
+  position: absolute;
+  top: 100%;
+  border: 1px solid lightgray;
+  width:200px;
+  list-style-type:  none;
+  border-bottom: none;
+  border-top: none;
+  z-index: 99;
+  left: 0;
+  right: 0;
+}
+
+.listItem{
+  padding: 10px;
+  cursor: pointer;
+  background-color: #fff; 
+  border-bottom: 1px solid lightgray; 
+}
+
+.autocompleteList div:hover{
+  background-color: gray;
+}
+
+#cmpNm{
+  border: 1px solid transparent;  
+  font-size: 14px;
+  width: 100%;
+  height: 30px;
+  background-color: #f1f1f1;
+}

@@ -1,0 +1,51 @@
+{
+  "name": "es_aggregation_with_reactjs",
+  "version": "1.0.0",
+  "author": "nirmala",
+  "license": "ISC",
+  "babel": {
+    "presets": [
+      "@babel/preset-env",
+      "@babel/preset-react"
+    ],
+    "plugins": [
+      [
+        "react-hot-loader/babel"
+      ],
+      [
+        "import",
+        {
+          "libraryName": "antd",
+          "libraryDirectory": "es",
+          "style": "css"
+        }
+      ],
+      [
+        "@babel/plugin-proposal-class-properties"
+      ]
+    ]
+  },
+  "dependencies": {
+    "@material-ui/core": "^4.11.1",
+    "axios": "^0.21.1",
+    "dompurify": "^2.2.6",
+    "elasticsearch": "^16.7.1",
+    "material-table": "^1.69.2",
+    "react": "^17.0.1",
+    "react-autosuggest": "^10.0.4",
+    "react-dom": "^17.0.1",
+    "react-scripts": "4.0.1",
+    "react-select": "^3.1.1",
+    "@babel/core": "^7.15.8",
+    "@babel/preset-env": "^7.15.8",
+    "@babel/preset-react": "^7.14.5",
+    "babel-loader": "^8.2.2",
+    "babel-plugin-import": "^1.13.3",
+    "webpack": "^5.57.1",
+    "webpack-cli": "^4.9.0",
+    "webpack-dev-server": "^4.3.1"
+  },
+  "scripts": {
+    "start": "webpack serve"
+  }
+}

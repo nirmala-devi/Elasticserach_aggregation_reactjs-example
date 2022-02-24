@@ -1,0 +1,72 @@
+
+table {
+  width: 80%;
+  height: 100%;
+  margin-top: 20px;
+}
+
+th, td{
+  padding: 5px; 
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.search { 
+  float: left;  
+  padding: 50px;
+  width: 25%;
+}
+.rightPanel {
+  float: left;  
+  padding: 10px;
+  width: 75%;
+}
+.App::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.vl {
+  border-left: 2px solid gray;
+  height: 900px;
+  position: absolute;
+  left: 25%;
+  margin-left: -3px;
+  top: 0;
+}
+
+input[type=button]{
+  background-color: rgba(0, 45, 128, 0.603);
+  color:white;
+  text-decoration: none;
+  padding: 5px 10px;
+  margin: 2px 10px;
+  border-radius:6px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 15px;
+}
+a{
+  text-decoration: none;
+}
+
+.dtlPanel{ 
+  border-collapse: collapse;
+}
+
+.dtlPanel,.dtlPanel>tr,.dtlPanel>th{
+  border: 1px solid lightgray;  
+  padding: 8px;
+}
+
+ul {
+  list-style-type: none;  
+  padding: 0px;
+  margin: 0px;
+}
+
+li{
+  margin: 0px;  
+}
